@@ -77,7 +77,7 @@ class EmissionTracker:
         self.country1 = ""
         self.country2 = ""
         self.base = "https://beta3.api.climatiq.io"
-        self.headers = {'Authorization': 'Bearer ZG3JJ72DJVMTG8PAVX5GMBGS7K61'}
+        self.headers = {'Authorization': 'API key'}
         self.query = "/search?query=&year=2021&category=Electricity&source=BEIS"
         self.countryDict = {}
         self.co2Dict = {}
